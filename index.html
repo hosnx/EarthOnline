@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#020810">
+  <meta name="description" content="地球 Online 官方網站。查看 Planet 最新世界版本更新與完整開發紀錄。">
+  <meta name="author" content="Hoformation">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23020810'/%3E%3Ccircle cx='32' cy='32' r='21' fill='none' stroke='%2354d9ff' stroke-width='5'/%3E%3Cpath d='M13 32h38M32 11c8 8 8 34 0 42M32 11c-8 8-8 34 0 42' fill='none' stroke='%23c8ff5a' stroke-width='3'/%3E%3C/svg%3E">
+  <title>地球 Online｜Planet 官方網站</title>
+  <link rel="stylesheet" href="site.css">
+</head>
+<body class="portal-page">
+  <div class="noise" aria-hidden="true"></div>
+  <header class="portal-header">
+    <a class="portal-brand" href="./" aria-label="地球 Online 主頁"><span class="planet-dot" aria-hidden="true"></span><span>PLANET</span></a>
+    <nav aria-label="主要導覽"><a class="active" href="./">主頁</a><a href="versions/26.9/">版本</a><a href="about/">關於我們</a></nav>
+    <span class="server-state"><i></i> WORLD ONLINE</span>
+  </header>
+
+  <main>
+    <section class="portal-hero">
+      <div class="orbit-field" aria-hidden="true"><i></i><i></i><i></i></div>
+      <p class="portal-eyebrow enter">PLANET PRESENTS · LIVE SERVICE SINCE 4.54B BCE</p>
+      <h1 class="enter">地球<br><span>ONLINE</span></h1>
+      <div class="hero-meta enter"><p>一個世界，同時在線 70 億玩家。<br>至今還未完成的開放世界遊戲。</p><a href="versions/26.9/">進入最新版本 <span>↗</span></a></div>
+      <div class="world-telemetry enter" aria-label="累積人類玩家數"><span>CUMULATIVE HUMAN PLAYERS</span><strong>≈ 117,000,000,000</strong><small>ALL-TIME ACCOUNTS · ONE-LIFE MODE</small></div>
+    </section>
+
+    <section class="release-feed" aria-labelledby="latest-title">
+      <div class="section-heading"><div><span>LATEST DEPLOYMENTS</span><h2 id="latest-title">最近更新</h2></div><button class="more-button" type="button" data-open-drawer aria-controls="release-drawer" aria-expanded="false">更多版本 <b>＋</b></button></div>
+      <div class="release-list" data-release-list="recent"></div>
+    </section>
+
+    <section class="planet-note"><span>MESSAGE FROM THE DEVELOPER</span><p>我們知道平衡性仍然有問題。經濟系統過於複雜、氣候活動難度持續上升，而且部分玩家亦濫用聊天功能，惡意破壞遊戲環境，我們會用心傾聽玩家意見。感謝各位在沒有客服中心的情況下，繼續遊玩。</p></section>
+  </main>
+
+  <aside class="release-drawer" id="release-drawer" aria-hidden="true" aria-label="所有版本更新">
+    <div class="drawer-head"><div><span>ARCHIVE</span><h2>所有版本</h2></div><button type="button" data-close-drawer aria-label="關閉版本列表">×</button></div>
+    <div class="drawer-list" data-release-list="all"></div>
+    <p class="drawer-foot">版本由新至舊排列。Planet 對史前版本缺乏完整文件深表遺憾。</p>
+  </aside>
+  <div class="drawer-backdrop" data-close-drawer aria-hidden="true"></div>
+
+  <footer class="portal-footer"><div class="portal-brand"><span class="planet-dot" aria-hidden="true"></span><span>PLANET</span></div><p>EARTH ONLINE · GLOBAL SERVER<br>請負責任地遊玩這顆星球。</p><p class="portal-credit">© 2026 Hoformation 創作<br><span>未經授權請勿轉載</span></p></footer>
+  <script src="site.js"></script>
+</body>
+</html>

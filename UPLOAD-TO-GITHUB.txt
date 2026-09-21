@@ -1,0 +1,18 @@
+地球 Online｜GitHub Pages 上傳說明
+
+1. 在 GitHub 建立一個 Public repository，例如 earth-online。
+2. 解壓縮本檔案，將解壓後的所有檔案與資料夾上傳至 repository 根目錄。
+   請確認 index.html 位於根目錄，不要把整個外層資料夾再套進去。
+3. 在 repository 開啟 Settings > Pages。
+4. Build and deployment 的 Source 選擇 Deploy from a branch。
+5. Branch 選 main，Folder 選 /(root)，然後按 Save。
+6. 等待數分鐘，網站通常會出現在：
+   https://你的GitHub名稱.github.io/repository名稱/
+
+直接進入最新版本頁：
+https://你的GitHub名稱.github.io/repository名稱/versions/26.9/
+
+如果希望 repository 根網址自動跳到版本頁，請先不要自行覆蓋 index.html；
+可回到原本的 ChatGPT 對話，要求製作「版本頁優先」版本，以保留主頁與導覽功能。
+
+網站製作：Hoformation
