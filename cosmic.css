@@ -1,0 +1,52 @@
+:root {
+  --cosmic-field: url("cosmic-grid-bg.webp");
+}
+
+body.portal-page,
+body.version-page,
+body.about-page {
+  background-color: #020810;
+  background-image:
+    linear-gradient(180deg, rgba(2, 8, 16, .38), rgba(2, 8, 16, .66) 48%, rgba(2, 8, 16, .91)),
+    radial-gradient(circle at 52% 42%, transparent 0, rgba(2, 8, 16, .14) 52%, rgba(2, 8, 16, .5) 100%),
+    var(--cosmic-field);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: auto, auto, cover;
+  background-attachment: fixed;
+}
+
+body.portal-page .portal-hero {
+  background:
+    radial-gradient(circle at 77% 47%, rgba(28, 137, 178, .15), transparent 26rem),
+    linear-gradient(180deg, rgba(2, 8, 16, .14), rgba(3, 17, 27, .46));
+}
+
+body.about-page {
+  background-color: #020810;
+  background-image:
+    linear-gradient(180deg, rgba(2, 8, 16, .2), rgba(3, 17, 27, .58) 40%, rgba(2, 8, 16, .9)),
+    radial-gradient(circle at 52% 42%, transparent 0, rgba(2, 8, 16, .14) 52%, rgba(2, 8, 16, .5) 100%),
+    var(--cosmic-field);
+}
+
+@media (max-width: 620px) {
+  body.portal-page,
+  body.version-page,
+  body.about-page {
+    background-image:
+      linear-gradient(180deg, rgba(2, 8, 16, .56), rgba(2, 8, 16, .78) 48%, rgba(2, 8, 16, .94)),
+      var(--cosmic-field);
+    background-position: 28% top;
+    background-size: auto, auto 100svh;
+    background-attachment: scroll;
+  }
+}
+
+@media (prefers-reduced-data: reduce) {
+  body.portal-page,
+  body.version-page,
+  body.about-page {
+    background-image: linear-gradient(180deg, #020810, #03111b 48%, #020810);
+  }
+}
