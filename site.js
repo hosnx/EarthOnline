@@ -1,4 +1,7 @@
-const releases=[{version:'26.9',date:'20 SEP 2026',type:'MAJOR WORLD UPDATE',title:'寵物、深海與角色創建',summary:'新增貓科外觀、31 種海洋生物，以及有限度開放初始天賦篩選。',url:'./versions/26.9/'}];
+const releases=[
+  {version:'26.10',date:'26 OCT 2026',type:'MAJOR SYSTEM UPDATE',title:'癌症疫苗、返老還童與動物返場',summary:'個人化癌症疫苗進入大型測試、細胞年齡重置研究解鎖，邦加懶猴重新載入。',url:'./versions/26.10/'},
+  {version:'26.9',date:'20 SEP 2026',type:'MAJOR WORLD UPDATE',title:'寵物、深海與角色創建',summary:'新增貓科外觀、31 種海洋生物，以及有限度開放初始天賦篩選。',url:'./versions/26.9/'}
+];
 
 const basePath=location.pathname.includes('/about/')?'..':location.pathname.includes('/versions/')?'../..':'.';
 const releaseUrl=(path)=>`${basePath}${path}`;
